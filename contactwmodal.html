@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="keywords" content="Insomniac, Chopas, Metalcraft, Sculptures, Motorcycles, Motorbikes, design, custom, builds, roll cages, exhausts, repairs, servicing, general engineering, fabrication">
+  <meta name="description" content="Insomniac Chopas & Metalcraft, Custom motorcycles, Metal sculptures, Designs and Builds, Servicing, Fabrication and general engineering">
+  <meta name="author" content="Steve Paton, Levi Berge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Insomniac Chopas & Metalcraft - Contact</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <nav class="black" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="home.html" class="brand-logo"><img class="responsive-img circle" src="images/logo_S.png" title="Insomniac Chopas & Metalcraft"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="active"><a href="contact.html">Contact</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="tnc.html">T & C</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="active"><a href="contact.html">Contact</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="tnc.html">T & C</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div class="red darken-4 grey-text text-lighten-3 row" style="margin-bottom: 0">
+    <form class="col s12" action="/action_page.php">
+      <h4>Contact Form</h4>
+      <p>If you would prefer to email me, either send to InsomniacChopas@gmail.com, or use the form below to send me a message.</p>
+      <br>
+      <div class="row grey darken-4" style="border-radius: 10px">
+        <div class="input-field col m6 s12">
+          <i class="material-icons prefix">account_circle</i>
+          <input placeholder="Enter first name here" id="first_name" type="text" class="validate" required="" aria-required="true">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col m6 s12">
+          <i class="material-icons prefix">account_circle</i>
+          <input placeholder="Enter last name here" id="last_name" type="text" class="validate" required="" aria-required="true">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row grey darken-4" style="border-radius: 10px">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">email</i>
+          <input placeholder="Enter your email here" id="email" type="email" class="validate" required="" aria-required="true">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row grey darken-4" style="border-radius: 10px">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">mode_edit</i>
+          <textarea placeholder="Enter your message here" id="message" class="materialize-textarea"></textarea>
+          <label for="message">Message</label>
+        </div>
+        </div>
+        <div class="row">
+            <div class="center col s12">
+        <button class="grey darken-4 btn waves-effect waves-light modal-trigger" type="submit" name="action" href="#modal1">Submit
+          <i class="material-icons right">send</i>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Thanks for your message!</h4>
+      <p>I will do my best to get back to you ASAP</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-red btn-flat">Confirm</a>
+    </div>
+  </div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+  });
+  $(document).ready(function() {
+  $('select').material_select();
+
+  // for HTML5 "required" attribute
+  $("select[required]").css({
+    display: "inline",
+    height: 0,
+    padding: 0,
+    width: 0
+  });
+});
+  </script>
+
+</div>
+</div>
+
+  <footer class="page-footer red darken-4">
+    <div class="container">
+      <div class="row">
+
+        <div class="col l6 s12">
+          <h5 class="grey-text text-lighten-3">Company Bio</h5>
+          <p class="grey-text text-lighten-2">My name is Steve and Insomniac Chopas & Metalcraft is my business. Feel free to pop by for a visit at 13E Port View Crescent, New Plymouth or give me a call on:</p>
+          <h5 class="grey-text text-lighten-4">022 126 1755</h5>
+
+        </div>
+        <div class="col l6 s12">
+          <a href="about.html"><image class="z-depth-2 responsive-img circle" src="images/SteveBySign.png" alt="Steve Paton"></a>
+        </div>
+      </div>
+    </div>
+    <div class="black footer-copyright">
+      <div class="container">
+        Made by <a class="brown-text text-lighten-3" href="#">Levi Berge</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+</body>
+</html>
